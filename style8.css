@@ -1,0 +1,97 @@
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: sans-serif;
+                scroll-behavior: smooth;
+              }
+           
+              /* header style */
+              .header {
+                height: 50px;
+                min-width: 1000px;
+                background-color: #090505;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: white;
+                position: sticky;
+             
+                top: 0;
+                z-index: 12345;
+              }
+              .left_header {
+                height: 50px;
+                width: 25%;
+                display: flex;
+                place-items: center;
+                cursor: pointer;
+              }
+              .logo_container {
+                height: 50px;
+                width: auto;
+              }
+              .logo_container img {
+                height: 50px;
+                width: auto;
+                transform: scale(0.9);
+              }
+              .center_header {
+                height: 50px;
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: scale(0.95);
+              }
+              .center_header_all {
+                height: 40px;
+                width: 50px;
+                font-weight: bold;
+                border-radius: 10;
+                border: none;
+                outline: none;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+                padding: 5px;
+              }
+              .center_header input {
+                height: 40px;
+                width: auto;
+                font-weight: bold;
+                border-radius: 10;
+                border: none;
+                outline: none;
+                font-size: large;
+                padding: 10px 20px;
+                width: 500px;
+              }
+              .center_header button {
+                height: 40px;
+                width: 50px;
+                font-weight: bold;
+                background: #eab553;
+                color: #1e1e1e;
+                border: none;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                transition: 0.1s ease-in;
+              }
+              .center_header button:hover {
+                cursor: pointer;
+                background: #d39f40;
+              }
+              .right_header {
+                height: 50px;
+                width: 25%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                transform: scale(0.95);
+                cursor: pointer;
+              }
+              span{
+               font-size: 12px;
+              }
+           

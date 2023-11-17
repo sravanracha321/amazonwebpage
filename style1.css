@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #eaeded;
+}
+
+img{
+    height: 300px;
+    width: 200px;
+   
+}
+.sec-2{
+    width:100%;
+    height:100;
+    padding:25px;
+    padding-top:0;
+    padding-bottom: 25px;
+}
+.sec-2 h3{
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin-top:5px;
+}
+.slide-sec{
+    height: 100%;
+    width:100%;
+    padding:35px;
+    overflow-x: hidden;
+    background-color: white;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.product-slide{
+    display: flex;
+    margin-top: 10px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.product-slide::-webkit-scrollbar{
+    background-color: transparent;
+    height:7px; 
+    cursor: pointer;
+}
+.product-slide::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.product-slide li{
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.l-btn, 
+.r-btn{
+    background-color: rgb(255,255,255,1);
+    height:90px;
+    width:50px;
+    text-align: center;
+    cursor:pointer;
+    top:50%;
+    position: absolute; 
+    border:2px solid transparent; 
+}
+.l-btn{
+    border-radius: 0 5px 5px 0;
+    left:10px;
+}
+.r-btn{
+    border-radius: 5px 0 0 5px;
+    right:10px;
+}
+.l-btn:hover{
+    border: 3px solid rgb(2,150,150);
+}
+.r-btn:hover{
+    border: 3px solid rgb(2,150,150);
+}
+.r-btn i, .l-btn i{
+    color: brown;
+    position:absolute;
+    font-size: 30px;
+    top:35%;
+    left:12%;
+    right:12%;
+}
+.slide-sec h3{
+    font-size: 20px;
+    margin-top:5px;
+    margin-bottom: 0;
+}
+.product-slide.product-slide-1{
+    display: flex;
+    margin-top: 35px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,32 @@
+.back{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+
+}
+.footer-container{
+    height: 400px;
+    background-color: slategray;
+    color: white;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding: 10px;
+}
+.footer-title{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.footer-title~div{
+    margin-bottom: 12px;
+
+}
+
+.sravan{
+    padding-right: 20px;
+    padding-left: 200px;
+
+}

@@ -1,0 +1,85 @@
+main{
+
+    position: relative;
+
+  
+
+}
+     .card-product-container{
+        padding: 2px;
+        display: flex;
+        justify-content: space-between ;
+
+     }
+     .card-product{
+        background-color: white;
+       
+        display: inline-block;
+        flex-direction: column;
+        justify-content: space-between;
+        max-width: 300px;
+        background-color: white;
+        box-shadow: -5px -5px 10px  rgba(0,0,0,0.1),
+5px 5px 10px  rgba(0,0,0,0.1);
+padding-left: 5px;
+margin: 5px;
+     }
+     .card-product h2{
+        margin: 0;
+        padding: 10px;
+     }
+    .card-product-nested-card{
+      display:flex;
+      margin: 5px;
+     
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+ .card-nested p{
+    margin: 5px;
+ }
+ .card-nested img{
+      cursor: pointer;
+    width: 100px;
+    height: 90px;
+ 
+ }
+ .card-product-btn{
+    font-size: 10px;
+    align-self: flex-start;
+    margin: 7px 10px;
+    padding-left: 0px;
+    background-color: transparent;
+    border: none;
+    color: aqua;
+   
+ }
+ h2{
+background-color:white;
+   color: black;
+ 
+   font-size: 15px;
+ }
+ p{
+   color: black;
+   font-size: 12px;
+  font-family: Arial;
+
+ }
+
+
+
+
+.section-1 .section-1-container {
+   margin-top: 10px;
+   margin-right: 20px;
+   margin-left: 10px;
+   margin-bottom: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+
