@@ -5,10 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">         
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <title>Amazon webpage</title>
@@ -17,9 +14,9 @@
     <link rel="stylesheet"href="2.css">
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet"href="style4.css">
-	
    
     <link rel="stylesheet" href="style10.css">
+    <link rel="stylesheet" href="css/swiper-style.css">
     <script src="https://kit.fontawesome.com/9e0ab445c3.js" crossorigin="anonymous"></script>
 </head>
 
@@ -72,22 +69,22 @@
     <div class="carousel slide carousel-dark" id="banner" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src=".\images\3.jpg"class="w-100 d-block"height="500px">
+                <img src=".\images\31.jpg"class="w-100 d-block"height="500px">
             </div>
             <div class="carousel-item">
-                <img src=".\images\1.jpg"class="w-100 d-block">
+                <img src=".\images\21.jpg"class="w-100 d-block">
             </div>
             <div class="carousel-item">
-                <img src=".\images\5.jpg"class="w-100 d-block">
+                <img src=".\images\23.jpg"class="w-100 d-block">
             </div>
             <div class="carousel-item">
-                <img src=".\images\6.jpg"class="w-100 d-block">
+                <img src=".\images\24.jpg"class="w-100 d-block">
             </div>
             <div class="carousel-item">
-                <img src=".\images\7.jpg"class="w-100 d-block">
+                <img src=".\images\25.jpg"class="w-100 d-block">
             </div>
             <div class="carousel-item">
-                <img src=".\images\8.jpg"class="w-100 d-block">
+                <img src=".\images\26.jpg"class="w-100 d-block">
             </div>
         </div>
         <button data-bs-slide="prev" data-bs-target="#banner" class="carousel-control-prev">
@@ -354,7 +351,7 @@
   <!--cardcarsoual-->
  
     <div class="slide-sec">
-        <div class="l-btn btn-1c"><i class="fa-solid fa-chevron-left background-color:black"></i></div>
+        <div class="l-btn btn-1c"><i class="fa-solid fa-chevron-left"></i></div>
         <div class="r-btn btn-1d"><i class="fa-solid fa-chevron-right"></i></div>
          <h3>Related to items you've viewed</h3>
         <ul class="product-slide product-slide-2">
@@ -386,9 +383,314 @@
     </div>
     <!--designcardscarsoual-->
     
-        <link rel="stylesheet" href="swiper-style.css">
+        <link rel="stylesheet" href="css/swiper-style.css">
     
     
+    
+    </head>
+    
+    <body>
+    
+        <!-- Three-Items Ends -->
+        <!-- Card Carousel-1 -->
+    
+        <section class="cards-carousel container-fluid">
+            <div class="container cards-container">
+    
+                <!-- Heading Section -->
+                <div class="cards-container-heading">
+                    <h3 class="bg">Recommended to you</h3>
+                </div>
+    
+                <!-- Cards Section -->
+                <div class="position-relative cards-container-body">
+    
+                    <!-- Left Arrow -->
+                    <div class="arrow-container-l arrow-container-l1">
+                        <i id="left-arrow" class="bi bi-chevron-left left-arrow"></i>
+                    </div>
+    
+                    <!-- Cards -->
+                    <div class="carousel cards-slider swiper mySwiper">
+    
+    
+                        <div class="cards swiper-wrapper">
+                            <!-- Card1 -->
+                            <div class="card swiper-slide">
+    
+                                <!-- Card Banner Image -->
+                                <img class="card-img-top" src=".\images\25.webp" alt="Card image cap">
+    
+                                <!-- card Body -->
+                                <div class="card-body col">
+                                    <div class="row cardBodyR">
+                                        <div class="cardR0">
+    
+                                            <h5 class="">
+                                                Revamp your home in style modals</h5>
+    
+                                        </div>
+                                      
+                                        <div class="cardR2">
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-half cardR2-1"></i>
+                                            <span class="cardR2-2">2.5</span>
+                                            <span class="cardR2-3">(1,500)</span>
+                                        </div>
+    
+                                        <div class="cardR3">
+                                            <span class="cardR3-1">$500</span>
+                                            <del class="cardR3-2">$600</del>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <!-- card Footer -->
+                                <div class="card-body col card-footer">
+                                    <div class="card-ftr-con">
+                                        <div class="card-ftr-pid-con">
+    
+                                         
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card2 -->
+                            <div class="card swiper-slide">
+                                <img class="card-img-top" src=".\images\23.webp" alt="Card image cap">
+    
+    
+                                <!-- card Body -->
+                                <div class="card-body col">
+                                    <div class="row cardBodyR">
+                                        <div class="cardR0">
+    
+                                            <h5 class="">Up to 70% off | Styles for women styles</h5>
+    
+                                        </div>
+                                      
+                                        <div class="cardR2">
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-half cardR2-1"></i>
+                                            <span class="cardR2-2">3.5</span>
+                                            <span class="cardR2-3">(7,500)</span>
+                                        </div>
+    
+                                        <div class="cardR3">
+                                            <span class="cardR3-1">$700</span>
+                                            <del class="cardR3-2">$950</del>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <!-- card Footer -->
+                                <div class="card-body col card-footer">
+                                    <div class="card-ftr-con">
+                                        <div class="card-ftr-pid-con">
+    
+                                       
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card3 -->
+                            <div class="card swiper-slide">
+                                <img class="card-img-top" src=".\images\14.webp" alt="Card image cap">
+    
+    
+                                <!-- card Body -->
+                                <div class="card-body col">
+                                    <div class="row cardBodyR">
+                                        <div class="cardR0">
+    
+                                            <h5 class="">Minimum 50% off | Top styles for her <h5>
+    
+                                        </div>
+                                       
+                                        <div class="cardR2">
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-half cardR2-1"></i>
+                                            <span class="cardR2-2">4.0</span>
+                                            <span class="cardR2-3">(15,700)</span>
+                                        </div>
+    
+                                        <div class="cardR3">
+                                            <span class="cardR3-1">$800</span>
+                                            <del class="cardR3-2">$950</del>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <!-- card Footer -->
+                                <div class="card-body col card-footer">
+                                    <div class="card-ftr-con">
+                                        <div class="card-ftr-pid-con">
+    
+                                          
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card4 -->
+                            <div class="card swiper-slide">
+                                <img class="card-img-top" src=".\images\24.webp" alt="Card image cap">
+    
+    
+                                <!-- card Body -->
+                                <div class="card-body col">
+                                    <div class="row cardBodyR">
+                                        <div class="cardR0">
+    
+                                            <h5 class=""> 30% off for 
+                                            </h5>
+    
+                                        </div>
+                                        
+                                        <div class="cardR2">
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-half cardR2-1"></i>
+                                            <span class="cardR2-2">4.5</span>
+                                            <span class="cardR2-3">(2,500)</span>
+                                        </div>
+    
+                                        <div class="cardR3">
+                                            <span class="cardR3-1">$170</span>
+                                            <del class="cardR3-2">$220</del>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <!-- card Footer -->
+                                <div class="card-body col card-footer">
+                                    <div class="card-ftr-con">
+                                        <div class="card-ftr-pid-con">
+    
+                                           
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 5 -->
+                            <div class="card swiper-slide">
+                                <img class="card-img-top" src=".\images\11.webp" alt="Card image cap">
+    
+    
+                                <!-- card Body -->
+                                <div class="card-body col">
+                                    <div class="row cardBodyR">
+                                        <div class="cardR0">
+    
+                                            <h5 class=""> Up to 60% off</h5>
+    
+                                        </div>
+                                       
+                                        <div class="cardR2">
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-half cardR2-1"></i>
+                                            <span class="cardR2-2">4.5</span>
+                                            <span class="cardR2-3">(1,500)</span>
+                                        </div>
+    
+                                        <div class="cardR3">
+                                            <span class="cardR3-1">$600</span>
+                                            <del class="cardR3-2">$750</del>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <!-- card Footer -->
+                                <div class="card-body col card-footer">
+                                    <div class="card-ftr-con">
+                                        <div class="card-ftr-pid-con">
+    
+                                      
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 6 -->
+                            <div class="card swiper-slide">
+                                <img class="card-img-top" src=".\images\28.webp" alt="Card image cap">
+    
+    
+                                <!-- card Body -->
+                                <div class="card-body col">
+                                    <div class="row cardBodyR">
+                                        <div class="cardR0">
+    
+                                            <h5 class="">Prime Day offers | Brands in Focus</h5>
+    
+                                        </div>
+                                        
+                                        <div class="cardR2">
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-fill cardR2-1"></i>
+                                            <i class="bi bi-star-half cardR2-1"></i>
+                                            <span class="cardR2-2">4.5</span>
+                                            <span class="cardR2-3">(1,600)</span>
+                                        </div>
+    
+                                        <div class="cardR3">
+                                            <span class="cardR3-1">$600</span>
+                                            <del class="cardR3-2">$750</del>
+                                        </div>
+                                    </div>
+    
+                                </div>
+    
+                                <!-- card Footer -->
+                                <div class="card-body col card-footer">
+                                    <div class="card-ftr-con">
+                                        <div class="card-ftr-pid-con">
+    
+                                          
+                                        </div>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+                        <div class="swiper-pagination"></div>
+                    </div>
+    
+                    <!-- Right Arrow -->
+                    <div class="arrow-container-r arrow-container-r1">
+    
+                        <i id="right-arrow" class="bi bi-chevron-right right-arrow"></i>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
     </body>
     
     <!-- Bootstrap Script JavaScript Files -->
@@ -461,10 +763,7 @@
 
 </div>
 <script src="app.js"></script>
- <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-        
-        
-          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     </body>
